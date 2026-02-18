@@ -12,8 +12,6 @@ class BaseRobot:
             coords = [0, 0]
         self.name = name
         self.weight = weight
-        self.name = name
-        self.weight = weight
         self.coords = coords
 
     def get_info(self) -> str:
